@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+       android:onClick="themlop"
+        android:id="@+id/bt_themlop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Thêm Lớp"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/btndanhsach"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Xem danh sách lớp"
+        android:layout_margin="15dp"/>
+    <Button
+        android:onClick="qlsinhvien"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Quản lý lớp "
+        android:layout_margin="15dp"/>
+
+</LinearLayout>

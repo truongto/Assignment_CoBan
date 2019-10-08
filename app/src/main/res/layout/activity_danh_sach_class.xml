@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DanhSachClass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+
+            android:text="Mã Lớp"
+            android:textSize="16dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:text="Tên LỚp"
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <ListView
+        
+        android:textColor="#000"
+        android:id="@+id/listV_class"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>>
+
+</LinearLayout>
